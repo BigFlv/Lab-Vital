@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/ESP32/esp-idf/components/bootloader/subproject",
+    "build_dir":          "E:/ESP32/workspace/Vital/build/bootloader",
+    "config_file":        "E:/ESP32/workspace/Vital/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.1-dirty",
+    "target":             "esp32s2",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/ESP32/esp-idf/components/efuse/Kconfig;E:/ESP32/esp-idf/components/esp32s2/Kconfig;E:/ESP32/esp-idf/components/esp_common/Kconfig;E:/ESP32/esp-idf/components/esp_system/Kconfig;E:/ESP32/esp-idf/components/log/Kconfig;E:/ESP32/esp-idf/components/newlib/Kconfig;E:/ESP32/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/ESP32/esp-idf/components/bootloader/Kconfig.projbuild;E:/ESP32/esp-idf/components/esptool_py/Kconfig.projbuild;E:/ESP32/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "E:/ESP32/esp-idf/components/bootloader", "E:/ESP32/esp-idf/components/bootloader_support", "E:/ESP32/esp-idf/components/efuse", "E:/ESP32/esp-idf/components/esp32s2", "E:/ESP32/esp-idf/components/esp_common", "E:/ESP32/esp-idf/components/esp_hw_support", "E:/ESP32/esp-idf/components/esp_rom", "E:/ESP32/esp-idf/components/esp_system", "E:/ESP32/esp-idf/components/esptool_py", "E:/ESP32/esp-idf/components/hal", "E:/ESP32/esp-idf/components/log", "E:/ESP32/esp-idf/components/bootloader/subproject/main", "E:/ESP32/esp-idf/components/bootloader/subproject/components/micro-ecc", "E:/ESP32/esp-idf/components/newlib", "E:/ESP32/esp-idf/components/partition_table", "E:/ESP32/esp-idf/components/soc", "E:/ESP32/esp-idf/components/spi_flash", "E:/ESP32/esp-idf/components/xtensa", "" ]
+}

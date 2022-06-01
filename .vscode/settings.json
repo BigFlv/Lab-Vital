@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "pwm.h": "c",
+        "proximity_sensor.h": "c",
+        "climate_control_system.h": "c",
+        "temp_sensor.h": "c",
+        "shift_register.h": "c",
+        "adc.h": "c"
+    }
+}

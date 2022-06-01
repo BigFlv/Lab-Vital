@@ -1,0 +1,1 @@
+cmd='E:/ESP32/tools/cmake/3.16.4/bin/cmake.exe;-DSDKCONFIG=E:/ESP32/workspace/Vital/sdkconfig;-DIDF_PATH=E:/ESP32/esp-idf;-DIDF_TARGET=esp32s2;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=E:/ESP32/python_env/idf4.3_py3.8_env/Scripts/python.exe;-DEXTRA_COMPONENT_DIRS=E:/ESP32/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
